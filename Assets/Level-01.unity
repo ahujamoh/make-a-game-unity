@@ -529,6 +529,7 @@ GameObject:
   - component: {fileID: 1409659871}
   - component: {fileID: 1409659872}
   - component: {fileID: 1409659875}
+  - component: {fileID: 1409659876}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -600,7 +601,7 @@ Transform:
   - {fileID: 421081660}
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 4.558412, z: 0}
 --- !u!114 &1409659875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,6 +613,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4caf714a945b24d2bab458040c20d481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!111 &1409659876
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1409659870}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 8e7db2465f27844eeba5dcfd9e7e9158, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &1929462242
 Prefab:
   m_ObjectHideFlags: 0
