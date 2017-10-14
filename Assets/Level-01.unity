@@ -315,6 +315,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 100
   jumpHeight: 8
+  Hit01: {fileID: 8300000, guid: eb9bc01e49b8b44b1a9fd6a68e546803, type: 3}
+  Hit02: {fileID: 8300000, guid: 68a9e93f17c114fad852e017102f5afa, type: 3}
+  Hit03: {fileID: 8300000, guid: 5d64ef91034b34d99ade0bc7e75a0db0, type: 3}
 --- !u!114 &873297216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,6 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fd395fc9de0143f0940d419a876a6bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameOverSound: {fileID: 8300000, guid: 12322a13539884319967e1b74d3c1b19, type: 3}
   maxDepthAllowed: -10
   isRestarting: 0
 --- !u!82 &873297217
