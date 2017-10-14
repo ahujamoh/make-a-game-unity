@@ -38,6 +38,7 @@ function OnCollisionStay(){
 		else{
 			audioSource.clip = Hit03 as AudioClip;
 		}
+		audioSource.pitch = Random.Range(0.9, 1.15);
 		audioSource.Play();
 		playOnce = false;
 	}

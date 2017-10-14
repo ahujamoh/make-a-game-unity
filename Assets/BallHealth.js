@@ -23,7 +23,7 @@ function RestartLevel(){
 	Debug.Log("Test2");
 	isRestarting = true;
 	var audioSource : AudioSource = gameObject.AddComponent.<AudioSource>() as AudioSource;
-
+	audioSource.pitch = 1.0;
 	audioSource.clip = GameOverSound;
 	audioSource.Play();
 	yield WaitForSeconds(2 * audioSource.clip.length);
