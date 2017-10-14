@@ -187,48 +187,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1001 &658464505
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4240013192785240, guid: a9bd7f602fc5a4bffb676316212f78f0, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4240013192785240, guid: a9bd7f602fc5a4bffb676316212f78f0, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4240013192785240, guid: a9bd7f602fc5a4bffb676316212f78f0, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4240013192785240, guid: a9bd7f602fc5a4bffb676316212f78f0, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4240013192785240, guid: a9bd7f602fc5a4bffb676316212f78f0, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4240013192785240, guid: a9bd7f602fc5a4bffb676316212f78f0, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4240013192785240, guid: a9bd7f602fc5a4bffb676316212f78f0, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4240013192785240, guid: a9bd7f602fc5a4bffb676316212f78f0, type: 2}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: a9bd7f602fc5a4bffb676316212f78f0, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &873297209
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,6 +613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4caf714a945b24d2bab458040c20d481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinEffect: {fileID: 4240013192785240, guid: a9bd7f602fc5a4bffb676316212f78f0, type: 2}
 --- !u!111 &1409659876
 Animation:
   m_ObjectHideFlags: 0
