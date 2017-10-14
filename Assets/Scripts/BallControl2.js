@@ -6,6 +6,9 @@
 private var isFalling = false;
 var rotationSpeed = 100;
 var jumpHeight = 8;
+
+var playOnce = true;
+
 function Update () {
 	var rotation : float = Input.GetAxis("Horizontal")*rotationSpeed;
 	rotation *= Time.deltaTime;
@@ -18,5 +21,9 @@ function Update () {
 }
 
 function OnCollisionStay(){
+	if(playOnce == true){
+		Debug.Log("true");
+		playOnce = false;
+	}
 	isFalling = false;
 }
